@@ -1,0 +1,28 @@
+THE THIRD CASE:
+
+DIVISION OF TWO NUMBERS:
+
+CODE:
+
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class subtractiontesting {
+
+	@Test
+	void test() {
+		tests s = new tests();
+		int op = s.dividetwo(10,2);
+		assertEquals(5, op);
+		assertEquals(2, op);
+		assertEquals(8, op);
+		assertEquals(4, op);
+		assertEquals(62, op);
+		
+		
+	}
+
+}

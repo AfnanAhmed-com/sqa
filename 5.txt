@@ -1,0 +1,22 @@
+TAKING SQUARE ROOTS
+
+CODE:
+
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class subtractiontesting {
+
+	@Test
+	void test() {
+		tests s = new tests();
+		int op = s.cuberoot(3);
+		assertEquals(27, op);
+		
+		
+	}
+
+}

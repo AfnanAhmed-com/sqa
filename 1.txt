@@ -1,0 +1,9 @@
+SUBTRACTION OF THREE NUMBERS:
+
+CODE:
+package test;
+
+public class tests {
+	
+public int subtraction(int x, int y, int z) {
+	return x-y-z;

@@ -1,0 +1,14 @@
+THE SECOND CASE:
+
+ADDITION OF FIVE NUMBERS:
+
+CODE:
+
+package test;
+
+public class tests {
+	
+	public int additionfive(int x) {
+		return x+x+x+x+x;
+	}
+}
